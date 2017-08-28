@@ -29,7 +29,7 @@
                                     <constraint firstAttribute="height" constant="150" id="shZ-Cd-llZ"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slopes" translatesAutoresizingMaskIntoConstraints="NO" id="A28-QT-b8M">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slopes" translatesAutoresizingMaskIntoConstraints="NO" id="A28-QT-b8M" customClass="CornersOfImageViews" customModule="DeveloperProfile" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="120" width="110" height="110"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="110" id="oCx-5w-7ib"/>
@@ -62,14 +62,14 @@
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="IJz-j3-foU">
                                 <rect key="frame" x="8" y="337" width="305" height="140"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Data Image" translatesAutoresizingMaskIntoConstraints="NO" id="T9K-gY-eNU">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Data Image" translatesAutoresizingMaskIntoConstraints="NO" id="T9K-gY-eNU" customClass="CornersOfImageViews" customModule="DeveloperProfile" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="140" height="140"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="T9K-gY-eNU" secondAttribute="height" multiplier="1:1" id="bGY-uF-w5g"/>
                                             <constraint firstAttribute="width" constant="140" id="jtM-NX-3ai"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Images Image" translatesAutoresizingMaskIntoConstraints="NO" id="fok-KR-BZU">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Images Image" translatesAutoresizingMaskIntoConstraints="NO" id="fok-KR-BZU" customClass="CornersOfImageViews" customModule="DeveloperProfile" customModuleProvider="target">
                                         <rect key="frame" x="165" y="0.0" width="140" height="140"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="140" id="lUB-M8-73T"/>
@@ -84,14 +84,14 @@
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="duF-tz-1PM">
                                 <rect key="frame" x="8" y="501.99999999999994" width="305" height="139.66666666666657"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Videos Image" translatesAutoresizingMaskIntoConstraints="NO" id="boh-Kh-Db0">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Videos Image" translatesAutoresizingMaskIntoConstraints="NO" id="boh-Kh-Db0" customClass="CornersOfImageViews" customModule="DeveloperProfile" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="140" height="139.66666666666663"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="140" id="0M9-pJ-C8t"/>
                                             <constraint firstAttribute="width" secondItem="boh-Kh-Db0" secondAttribute="height" multiplier="1:1" id="mf7-r0-bIc"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Code" translatesAutoresizingMaskIntoConstraints="NO" id="9KF-61-ju5">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Code" translatesAutoresizingMaskIntoConstraints="NO" id="9KF-61-ju5" customClass="CornersOfImageViews" customModule="DeveloperProfile" customModuleProvider="target">
                                         <rect key="frame" x="165" y="0.0" width="140" height="139.66666666666663"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="9KF-61-ju5" secondAttribute="height" multiplier="1:1" id="Emr-qD-SEq"/>
